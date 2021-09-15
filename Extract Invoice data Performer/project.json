@@ -1,0 +1,75 @@
+{
+  "name": "Extract Invoice data Performer",
+  "description": "",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.Testing.Activities": "[1.4.1-preview]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "42e4ea65-b2f4-4257-bf61-02115668a082",
+        "dataVariationFilePath": ".variations\\Test ExtractInvoiceNo_Arkusz1.json",
+        "fileName": "Tests\\Test ExtractInvoiceNo.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4dad75d1-b08c-45c6-9d17-7b9280579c34",
+        "dataVariationFilePath": ".variations\\Test ExtractInvoiceNo_Arkusz1_1.json",
+        "fileName": "Tests\\Test ExtractInvoiceDate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "23c1f8d6-b3a4-4c44-b12c-122e673a9280",
+        "dataVariationFilePath": ".variations\\Test ExtractInvoiceNo_Arkusz1_2.json",
+        "fileName": "Tests\\Test ExtractInvoiceFileName.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "9bbc7bab-dfc5-4b54-8033-50c12c95e178",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
